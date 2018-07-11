@@ -1,0 +1,532 @@
+{
+	"notesdata": [{
+			"RenderKeyName": "DateOfExamination",
+			"RenderKeyValue": "01-Jan-2017",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderKeyValue",
+			"RenderValue": "01-Jan-2017"
+		},
+		{
+			"RenderKeyName": "PatientFirstName",
+			"RenderKeyValue": "Adarsh",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "Adarsh"
+		},
+		{
+			"RenderKeyName": "PatientLastName",
+			"RenderKeyValue": "Bajpai",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "Bajpai"
+		},
+		{
+			"RenderKeyName": "DateOfBirth",
+			"RenderKeyValue": "08-Aug-1979",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "08-Aug-1979"
+		},
+		{
+			"RenderKeyName": "DateOfAccident",
+			"RenderKeyValue": "05-Mar-2017",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "05-Mar-2017"
+		},
+		{
+			"RenderKeyName": "Gender",
+			"RenderKeyValue": "Male",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "Male"
+		},
+		{
+			"RenderKeyName": "Age",
+			"RenderKeyValue": "39",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "39"
+		},
+		{
+			"RenderKeyName": "MRN",
+			"RenderKeyValue": "1234XX4544556",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "1234XX4544556"
+		},
+		{
+			"RenderKeyName": "Location",
+			"RenderKeyValue": "Mumbai",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "Item",
+			"RenderType": "RenderValue",
+			"RenderValue": "Mumbai"
+		},
+		{
+			"RenderKeyName": "ChiefComplaints",
+			"RenderKeyValue": "",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "List",
+			"RenderType": "RenderValueListAsCommaSeperatedString",
+			"RenderValue": [{
+					"RenderKeyName": "ChiefComplaintsShoulder",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"IsRender": 1,
+					"DataType": "List",
+					"RenderType": "RenderValueListToString",
+					"RenderValue": [{
+							"RenderKeyName": "ChiefComplaintsShoulderLeft",
+							"RenderKeyValue": "Left",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsShoulderLeft>> shoulder"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsShoulderRight",
+							"RenderKeyValue": "Right",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsShoulderRight>> shoulder"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsShoulderBilateral",
+							"RenderKeyValue": "Bilateral",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 1,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsShoulderBilateral>> shoulder"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsShoulderBilateralLeftIsGreater",
+							"RenderKeyValue": "Left",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 1,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": " (<<ChiefComplaintsShoulderBilateralLeftIsGreater>> is greater than right)"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsShoulderBilateralRightIsGreater",
+							"RenderKeyValue": "Right",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": " (<<ChiefComplaintsShoulderBilateralRightIsGreater>> is greater than left)"
+
+						}
+					]
+				},
+				{
+					"RenderKeyName": "ChiefComplaintsKnee",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"IsRender": 1,
+					"DataType": "List",
+					"RenderType": "RenderValueListToString",
+					"RenderValue": [{
+							"RenderKeyName": "ChiefComplaintsKneeLeft",
+							"RenderKeyValue": "Left",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 1,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsKneeLeft>> knee"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsKneeRight",
+							"RenderKeyValue": "Right",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsKneeRight>> knee"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsKneeBilateral",
+							"RenderKeyValue": "Bilateral",
+							"ApplicationValue": [{}],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<ChiefComplaintsKneeBilateral>> knee"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsKneeBilateralLeftIsGreater",
+							"RenderKeyValue": "left",
+							"ApplicationValue": [],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": " (<<ChiefComplaintsKneeBilateralLeftIsGreater>> is greater than right)"
+
+						},
+						{
+							"RenderKeyName": "ChiefComplaintsKneeBilateralRightIsGreater",
+							"RenderKeyValue": "right",
+							"ApplicationValue": [],
+							"DataType": "Item",
+							"IsRender": 0,
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": " (<<ChiefComplaintsKneeBilateralRightIsGreater>> is greater than left)"
+
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"RenderKeyName": "MusculosketalShoulder",
+			"RenderKeyValue": "",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "List",
+			"RenderType": "RenderValueListAsTable",
+			"RenderValue": [{
+					"Column1": {
+						"RenderKeyName": "MusculosketalShoulderColumn1",
+						"RenderKeyValue": "Shoulder",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn1>>"
+					},
+					"Column2": {
+						"RenderKeyName": "MusculosketalShoulderColumn2",
+						"RenderKeyValue": "Left",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn2>>"
+					},
+					"Column3": {
+						"RenderKeyName": "MusculosketalShoulderColumn3",
+						"RenderKeyValue": "Right",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn3>>"
+					},
+					"IsHeader": {
+						"RenderKeyName": "MusculosketalShoulderIsHeader",
+						"RenderKeyValue": "1",
+						"ApplicationValue": [{}],
+						"IsRender": 0,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": "<<MusculosketalShoulderIsHeader>>"
+					}
+
+				},
+
+				{
+					"Column1": {
+						"RenderKeyName": "MusculosketalShoulderColumn1",
+						"RenderKeyValue": "TENDERNESS TO PALPATION",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn1>>"
+					},
+					"Column2": {
+						"RenderKeyName": "MusculosketalShoulderColumn2",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "List",
+						"RenderType": "RenderValueListAsCommaSeperatedString",
+						"RenderValue": [{
+							"RenderKeyName": "MusculosketalShoulderColumn2AnteriorShoulder",
+							"RenderKeyValue": "Anterior shoulder",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn2AnteriorShoulder>>"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn2PorteriorShoulder",
+							"RenderKeyValue": "Posterior shoulder",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn2PorteriorShoulder>>"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn2ACJoint",
+							"RenderKeyValue": "AC Joint",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn2ACJoint>>"
+						}]
+					},
+					"Column3": {
+						"RenderKeyName": "MusculosketalShoulderColumn3",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 0,
+						"DataType": "List",
+						"RenderType": "RenderValueListAsCommaSeperatedString",
+						"RenderValue": [{
+							"RenderKeyName": "MusculosketalShoulderColumn3AnteriorShoulder",
+							"RenderKeyValue": "Anterior shoulder",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn3AnteriorShoulder>>"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn3PorteriorShoulder",
+							"RenderKeyValue": "Posterior shoulder",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn3PorteriorShoulder>>"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn3ACJoint",
+							"RenderKeyValue": "AC Joint",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderKeyValue",
+							"RenderValue": "<<MusculosketalShoulderColumn3ACJoint>>"
+						}]
+					},
+					"IsHeader": {
+						"RenderKeyName": "MusculosketalShoulderIsHeader",
+						"RenderKeyValue": "IsHeader",
+						"ApplicationValue": "",
+						"IsRender": 0,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": "IsHeader"
+					}
+
+				},
+
+				{
+					"Column1": {
+						"RenderKeyName": "MusculosketalShoulderColumn1",
+						"RenderKeyValue": "RANGE OF MOTION:",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn1>>"
+					},
+					"Column2": {
+						"RenderKeyName": "MusculosketalShoulderColumn2",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": ""
+					},
+					"Column3": {
+						"RenderKeyName": "MusculosketalShoulderColumn3",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 0,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": ""
+					},
+					"IsHeader": {
+						"RenderKeyName": "MusculosketalShoulderIsHeader",
+						"RenderKeyValue": "IsHeader",
+						"ApplicationValue": "",
+						"IsRender": 0,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": ""
+					}
+				},
+
+				{
+					"Column1": {
+						"RenderKeyName": "MusculosketalShoulderColumn1",
+						"RenderKeyValue": "Forward Flexion",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "Item",
+						"RenderType": "RenderKeyValue",
+						"RenderValue": "<<MusculosketalShoulderColumn1>>"
+					},
+					"Column2": {
+						"RenderKeyName": "MusculosketalShoulderColumn2",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 1,
+						"DataType": "List",
+						"RenderType": "RenderValueListToString",
+						"RenderValue": [{
+							"RenderKeyName": "MusculosketalShoulderColumn2ForwardFlexionDegree",
+							"RenderKeyValue": "0",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<MusculosketalShoulderColumn2ForwardFlexionDegree>> degree"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn2ForwardFlexionWithPain",
+							"RenderKeyValue": "with pain",
+							"ApplicationValue": [{}],
+							"IsRender": 0,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "(<<MusculosketalShoulderColumn2ForwardFlexionWithPain>>)"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn2ForwardFlexionWithoutPain",
+							"RenderKeyValue": "without pain",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "(<<MusculosketalShoulderColumn2ForwardFlexionWithoutPain>>)"
+						}]
+					},
+					"Column3": {
+						"RenderKeyName": "MusculosketalShoulderColumn3",
+						"RenderKeyValue": "",
+						"ApplicationValue": [{}],
+						"IsRender": 0,
+						"DataType": "List",
+						"RenderType": "RenderValueListToString",
+						"RenderValue": [{
+							"RenderKeyName": "MusculosketalShoulderColumn3ForwardFlexionDegree",
+							"RenderKeyValue": "0",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "<<MusculosketalShoulderColumn3ForwardFlexionDegree>> degree"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn3ForwardFlexionWithPain",
+							"RenderKeyValue": "with pain",
+							"ApplicationValue": [{}],
+							"IsRender": 1,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "(<<MusculosketalShoulderColumn3ForwardFlexionWithPain>>)"
+						}, {
+							"RenderKeyName": "MusculosketalShoulderColumn3ForwardFlexionWithoutPain",
+							"RenderKeyValue": "without pain",
+							"ApplicationValue": [{}],
+							"IsRender": 0,
+							"DataType": "Item",
+							"RenderType": "RenderValueWithKeyReplacement",
+							"RenderValue": "(<<MusculosketalShoulderColumn3ForwardFlexionWithoutPain>>)"
+						}]
+					},
+					"IsHeader": {
+						"RenderKeyName": "MusculosketalShoulderIsHeader",
+						"RenderKeyValue": "IsHeader",
+						"ApplicationValue": "",
+						"IsRender": 0,
+						"DataType": "Item",
+						"RenderType": "RenderValue",
+						"RenderValue": "IsHeader"
+					}
+
+				}
+			]
+		},
+		{
+			"RenderKeyName": "Plan",
+			"RenderKeyValue": "",
+			"ApplicationValue": [{}],
+			"IsRender": 1,
+			"DataType": "List",
+			"RenderType": "RenderValueListAsTable",
+			"RenderValue": [{
+					"RenderKeyName": "PlanDescription",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"DataType": "Item",
+					"IsRender": 1,
+					"RenderType": "RenderValueWithKeyReplacement",
+					"RenderValue": "Due to the length of time since injury and the fact that the patient has failed conservative measures, active physical therapy, and time, surgical intervention is warranted for the <<PlanDescription>> . This is arthroscopic surgery. The risks, benefits, alternatives and options have been discussed in detail with the patient. The risks include but are not limited to, bleeding, infection, pain, stiffness, muscle injury, nerve injury, DVT and recurrence. The postoperative discussion held in detail with the patient. Questions were asked and answered."
+
+				},
+				{
+					"RenderKeyName": "PlanSurgeryDesired",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"DataType": "Item",
+					"IsRender": 1,
+					"RenderType": "RenderValueWithKeyReplacement",
+					"RenderValue": "The patient desires surgery and surgery will be scheduled following workers’ compensation authorization/insurance approval/ for <<PlanSurgeryDesired>>."
+				},
+				{
+					"RenderKeyName": "PlanSurgeryNotDesired",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"DataType": "Item",
+					"IsRender": 0,
+					"RenderType": "RenderValue",
+					"RenderValue": "The patient is hesitant to proceed with surgery at this time."
+				},
+				{
+					"RenderKeyName": "PlanRequestAuthorization",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"DataType": "Item",
+					"IsRender": 1,
+					"RenderType": "RenderValueWithKeyReplacement",
+					"RenderValue": "Request authorization from the workers’ compensation board for <<PlanRequestAuthorization>> arthroscopy with postoperative physical therapy, CPM, and cryotherapy."
+
+				},
+				{
+					"RenderKeyName": "PlanMRICTXRAYAttempt",
+					"RenderKeyValue": "",
+					"ApplicationValue": [{}],
+					"DataType": "Item",
+					"IsRender": 1,
+					"RenderType": "RenderValueWithKeyReplacement",
+					"RenderValue": "Attempts will be made to obtain the <<PlanMRICTXRAYAttempt>> MRI/XR/CT images."
+
+				}
+			]
+		},
+	]
+}

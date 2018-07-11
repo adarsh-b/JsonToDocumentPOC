@@ -1,0 +1,123 @@
+﻿{
+	"DateOfExamination": "12/12/2017",
+	"PatientFirstName": "Adarsh",
+	"PatientLastName": "Bajpai",
+	"DateOfBirth": "08/08/1979",
+	"DateOfAccident": "12/01/2017",
+	"Gender": "Male",
+	"Age": "38",
+	"MRN": "XYZ12345678",
+	"Location": "Mumbai",
+	"ChiefComplaints": "bilateral shoulder pain; right kneepain; neckpain; back pain",
+	"NatureOfAccident": "motor vehicle injury",
+	"RestrainedUnStrained": "restrained",
+	"TypeOfPassenger": "Driver",
+	"PositionOfSeat": "right",
+	"HowAccidentOccured": "Some description about how accedent occured",
+	"DidDidNot": "did not",
+	"InjuredBodyPartsList": "bilateral shoulder; right knee; bilateral elbow",
+	"PastMedicalHistory": "This is description of past medical injuries",
+	"MedicationDetail": "This is past medication details of the patient",
+	"PastSurgeryHostoryDetail": "This post surgery details",
+	"PastHospitalizationDetails": "This is past hospitalization detail",
+	"FamilyHistoryDetail": "This is family history section",
+	"SocialHistoryDetails": "This is social history detail",
+	"PatientsOccupation": "Software Engineer",
+	"ReviewOfSystemDetails": "Some details of review of system",
+	"AllergiesDetails": "This is allergies detail",
+	"HeightFeet": "5",
+	"HieghtInches": "6",
+	"HeightInCentimetere": "165",
+	"Weight": "120",
+	"ExaminationReportName": "X-RAY",
+	"ExaminedOrganDetails": "right​ ​shoulder; both knees",
+	"ReportExaminationDate": "12-01-2017",
+	"ReportExaminationFindings": "dragon​ ​dictation. My​ ​interpretation​ ​is​ ​similar​ ​to​ ​the​ ​radiologist’s​ ​interpretation.​​ dragon dictation",
+	"CPTCodes": "​​99244/99214/99024/20610/20605",
+	"SHOULDER": [{
+			"Column1": "SHOULDER",
+			"Column2": "Right",
+			"Column3": "Left",
+			"IsHeader": 1
+		},
+		{
+			"Column1": "TENDERNESS TO PALPATION",
+			"Column2": "anterior shoulder",
+			"Column3": "Lateral shoulder",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "RANGE OF MOTION:",
+			"Column2": "",
+			"Column3": "",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "FORWARD FLEXION",
+			"Column2": "80 degrees with pain",
+			"Column3": "60 degrees with minimal pain)",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "ABDUCTION",
+			"Column2": "30 degrees with minimal pain",
+			"Column3": "70 degrees with pain",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "EXTERNAL ROTATION",
+			"Column2": "20 degrees with pain",
+			"Column3": "90 degrees with pain",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "INTERNAL ROTATION",
+			"Column2": "20 vertebral body with pain",
+			"Column3": "30 vertebral side with pain",
+			"IsHeader": 0
+		}
+	],
+	"CERVICALSPINE": [{
+			"Column1": "CERVICALSPINE",
+			"Column2": "Right",
+			"Column3": "Left",
+			"IsHeader": 1
+		},
+		{
+			"Column1": "TENDERNESS TO PALPATION",
+			"Column2": "anterior shoulder",
+			"Column3": "trapezius",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "RANGE OF MOTION:",
+			"Column2": "",
+			"Column3": "",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "FORWARD FLEXION",
+			"Column2": "80  degrees with pain ",
+			"Column3": "60  degrees with  minimal pain",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "ABDUCTION",
+			"Column2": "30 degrees with pain",
+			"Column3": "70 degrees with minimal pain",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "EXTERNAL ROTATION",
+			"Column2": "20 degrees with minimal pain",
+			"Column3": "90 degrees with pain",
+			"IsHeader": 0
+		},
+		{
+			"Column1": "INTERNAL ROTATION",
+			"Column2": "20 vertebral body with pain",
+			"Column3": "30 vertebral side with minimal pain",
+			"IsHeader": 0
+		}
+	]
+}

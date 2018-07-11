@@ -1,0 +1,10 @@
+Render Types
+============
+RenderValue - Renderes value specified in "RenderValue" field
+RenderKeyValue - Renderes value specified in "RenderKeyValue" field
+RenderValueWithKeyReplacement - Renders the RenderValue Field with replacement of RenderKeyValue in place of Key in RenderValue field
+RenderValueListToString - This is applicable when the field RenderValue is a collection object and you want to have a string value generated out of all the list elememts like ('Shoulder', 'Knee', 'Spine') and you want it to be as string 'Shoulder Knee Spine' then use this
+RenderValueListAsCommaSeperatedString - This renderes list collection to a comma separated string
+RenderValueListAsTable - This creates a Table from the list collection as specified in rendervalue field
+RenderValueAsBulletList - This render type renders the list of strings as specified in rendervalue field as bulleted list in document
+
